@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Problem Solving</title>
+        <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <link rel="stylesheet" href="ps_css.css">
+    </head>
+    <style>A {text-decoration: none;} </style>
+    <body>
+        <h1 style="color: white">PROBLEM SOLVING</h1> 
+        
+        <button class="collapsible">1. Fibonacci</button>
+        <div class="content">
+            <p style="color:white">
+                Fibonacci number is an integer in the infinite sequence
+                1, 1, 2, 3, 5, 8, 13,... of which the first two terms are 1
+                ans 1 and each succeeding terms is the sum of the two numbers before
+            </p>
+            <p style="color:white">
+                Question:
+            </p>
+            <p style="color:white">
+                <a href="" target="_blank">Click Here For Solutions</a><br>
+            </p>
+        </div>
+    
+        <button class="collapsible">2. </button>
+        <div class="content">
+            <p style="color: white">
+                Definition
+            </p>
+            <p style="color: white">
+                Question:
+            </p>
+            <p style="color: white">
+            <a href="" target="_blank">Click Here For Solutions</a><br>
+            </p>
+        </div>
+
+        <button class="collapsible">3. </button>
+        <div class="content">
+            <p style="color: white">
+                Definition
+            </p>
+            <p style="color: white">
+                Question:
+            </p>
+            <p style="color: white">
+            <a href="" target="_blank">Click Here For Solutions</a><br>
+            </p>
+        </div>
+        
+        <button class="collapsible">4. </button>
+        <div class="content">
+            <p style="color: white">
+                Definition
+            </p>
+            <p style="color: white">
+                Question:
+            </p>
+            <p style="color: white">
+            <a href="" target="_blank">Click Here For Solutions</a><br>
+            </p>
+        </div>
+
+        <button class="collapsible">5. </button>
+        <div class="content">
+            <p style="color: white">
+                Definition
+            </p>
+            <p style="color: white">
+                Question:
+            </p>
+            <p style="color: white">
+            <a href="" target="_blank">Click Here For Solutions</a><br>
+            </p>
+        </div>
+
+        <button class="collapsible">5. </button>
+        <div class="content">
+            <p style="color: white">
+                Definition
+            </p>
+            <p style="color: white">
+                Question:
+            </p>
+            <p style="color: white">
+            <a href="" target="_blank">Click Here For Solutions</a><br>
+            </p>
+        </div>
+
+        <button class="collapsible">2. </button>
+        <div class="content">
+            <p style="color: white">
+                Definition
+            </p>
+            <p style="color: white">
+                Question:
+            </p>
+            <p style="color: white">
+            <a href="" target="_blank">Click Here For Solutions</a><br>
+            </p>
+        </div>
+
+
+        <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.maxHeight){
+            content.style.maxHeight = null;
+            } else {
+            content.style.maxHeight = content.scrollHeight + "px";
+            } 
+        });
+        }
+        </script>
+        
+    </body>
+</html>
